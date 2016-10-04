@@ -56,18 +56,18 @@ Se realiza a través del interfaz de Github. En el ```Settings```  --> ```Profil
 ###4-Creación de nuevo hito
 Para crear nuevo hito o branch usamos el comando:
 
-```$ git checkout -b hito0```
+```$ git checkout -b hit0```
 
 Y luego un push de este hito:
 
-```$ git push origin hito0 ```
+```$ git push origin hit0 ```
 
 ###5-Commit
-```$git add . ```
+```$git add practica0.md ```
 
-```$git commit -m "Create practica0.md"```
+```$git commit -m "close #9"```
 
-```$git push```
+```$git push origin master```
 
 ###
 =======

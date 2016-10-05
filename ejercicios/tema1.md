@@ -3,7 +3,7 @@
 ##EJERCICIO-1:
 ###Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 El servidor que he elegido es un [HP ProLiant BL460c Gen9 E5-2620v3](https://www.pccomponentes.com/hp-proliant-bl460c-gen9-e5-2620v3)
-![Servidor](https://img.pccomponentes.com/articles/10/103334/hp-proliant-bl460c-gen9-e5-2620v3.jpg = 250x250)
+![](https://img.pccomponentes.com/articles/10/103334/hp-proliant-bl460c-gen9-e5-2620v3.jpg =250x)
 Tiene un coste de __2157€ *IVA incluido* (1782.64€ sin IVA)__
 
 ####Amortización de 4 años y 7 años.
@@ -62,7 +62,7 @@ Usaremos el lenguaje Python para crear un programa que simplemente imprime "Hell
 ```#!/usr/bin Python
    print "Hello world!"
 ```
-Para poder empaqutar con CDE, tenemos que instalar primero CDE usando ```sudo apt-get install cde```
+Para poder empaqutar con CDE, tenemos que instalar primero CDE usando `sudo apt-get install cde`
 Los siguientes pasos se pueden observar en la captura del terminal:
 ![captura de pantalla](https://github.com/JiaqiWa/IV-16-17/blob/hit0/CapturasDePantalla/Ejecicio3.2.PNG))
 Para usarlo otras distrubuciones solo tiene que descomprimir el paquete y luego acceder al directorio correspondiente para poder ejecutarlo.

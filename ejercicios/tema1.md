@@ -56,7 +56,7 @@ Calculamos el gasto anual de ambos servidores:
 
 ##EJERCICIO-3:
 ###1.¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
-[Comentado en el foro]()
+[Comentado en el foro](https://github.com/JJ/IV16-17/issues/1)
 
 ###2.Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 

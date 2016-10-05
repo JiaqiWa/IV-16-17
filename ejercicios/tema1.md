@@ -3,7 +3,9 @@
 ##EJERCICIO-1:
 ###Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 El servidor que he elegido es un [HP ProLiant BL460c Gen9 E5-2620v3](https://www.pccomponentes.com/hp-proliant-bl460c-gen9-e5-2620v3)
-![](https://img.pccomponentes.com/articles/10/103334/hp-proliant-bl460c-gen9-e5-2620v3.jpg =250x)
+
+<img src="https://img.pccomponentes.com/articles/10/103334/hp-proliant-bl460c-gen9-e5-2620v3.jpg" width="250" height="250" />
+
 Tiene un coste de __2157€ *IVA incluido* (1782.64€ sin IVA)__
 
 ####Amortización de 4 años y 7 años.
@@ -59,9 +61,12 @@ Calculamos el gasto anual de ambos servidores:
 ###2.Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 Usaremos el lenguaje Python para crear un programa que simplemente imprime "Hello world!"
-```#!/usr/bin Python
-   print "Hello world!"
+
 ```
+#!/usr/bin Python
+print "Hello world!"
+```
+
 Para poder empaqutar con CDE, tenemos que instalar primero CDE usando `sudo apt-get install cde`
 Los siguientes pasos se pueden observar en la captura del terminal:
 ![captura de pantalla](https://github.com/JiaqiWa/IV-16-17/blob/hit0/CapturasDePantalla/Ejecicio3.2.PNG))
@@ -75,12 +80,12 @@ Para conocer el modelo del procesador usaremos el comando `cat /proc/cpuinfo`
 
 Mi procesador es un **Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz**
 
-Estoy usando ubuntu 16.04 instalado en VirtualBox, por lo tanto, al ejecular el comando '''egrep '^flags.\*(vmx|svm)' /proc/cpuinfo''' no muestra ningún salida, pero el sistema window 10 sí soporta la virtualización a nivel hardware. Activé la virtualización en BIOS y además podemos ver en la siguiente captura que VT-x está habilitada:
+Estoy usando ubuntu 16.04 instalado en VirtualBox, por lo tanto, al ejecular el comando `egrep '^flags.\*(vmx|svm)' /proc/cpuinfo` no muestra ningún salida, pero el sistema window 10 sí soporta la virtualización a nivel hardware. Activado la virtualización en BIOS y además podemos ver en la siguiente captura que VT-x está habilitada:
 ![captura](https://github.com/JiaqiWa/IV-16-17/blob/hit0/CapturasDePantalla/vt-x.PNG)
 
 
 ##EJERCICIO-5:
-###1.Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+###1.Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden `kvm-ok`.
 
 Al ejecutar este comando, la información que muestra es:
 ![captura](https://github.com/JiaqiWa/IV-16-17/blob/hit0/CapturasDePantalla/kvm-ok.PNG)

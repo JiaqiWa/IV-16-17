@@ -70,7 +70,7 @@ Para usarlo otras distrubuciones solo tiene que descomprimir el paquete y luego 
 
 ##EJERCICIO-4:
 ###Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
-Para conocer el modelo del procesador usaremos el comando ```cat /proc/cpuinfo```
+Para conocer el modelo del procesador usaremos el comando `cat /proc/cpuinfo`
 ![captura pantalla](https://github.com/JiaqiWa/IV-16-17/blob/hit0/CapturasDePantalla/cpuinfo.PNG)
 
 Mi procesador es un **Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz**

@@ -67,5 +67,3 @@ Y luego un push de este hito:
 ```$git commit -m "close #9"```
 
 ```$git push origin master```
-
-###
